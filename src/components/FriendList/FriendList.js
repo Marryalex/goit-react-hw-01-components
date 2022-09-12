@@ -12,7 +12,7 @@ function friendOnline(status) {
 const FriendList = ({ friends }) => {
   return (
     <div className={styles.friends}>
-      <ul className={styles.friendlist}>
+      <ul className={styles.friendList}>
         {friends.map(friend => (
           <li className={styles.item} key={friend.id}>
             <span
@@ -41,7 +41,7 @@ FriendList.propTypes = {
 avatar: PropTypes.string.isRequired,
 name: PropTypes.string.isRequired,
 isOnline: PropTypes.bool.isRequired,
-id: PropTypes.string.isRequired
+id: PropTypes.number.isRequired
 })
     )
 };

@@ -1,0 +1,36 @@
+.transTable{
+    display: flex;
+    justify-content: center;
+}
+.transactionHistory {
+ text-align: center;
+}
+.table {
+    font-size: 12px;
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+  }
+  th {
+    width: 250px;
+    height: 45px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    text-align: center;
+    font-weight: 600;
+    border-color: grey;
+    background: #07aecc;
+  }
+  
+  td {
+    width: 250px;
+    height: 45px;
+    padding: 10px 20px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;;
+    color: #4d4d4df1;
+  }
+ 
